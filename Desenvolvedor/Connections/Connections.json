@@ -1,0 +1,60 @@
+{
+  "9fddfc1e-4479-428b-9bb0-9a0d563170b9": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel",
+      "parameterHints": {
+        "c555198a-564e-45ee-a2ab-74c37f990ca7": {
+          "value": "fileSource"
+        }
+      },
+      "parameterHintsV2": {
+        "fileSource": {
+          "value": "c555198a-564e-45ee-a2ab-74c37f990ca7"
+        }
+      }
+    },
+    "datasets": {
+      "AF62094D5C39987B!128": {
+        "dataSources": {
+          "tTarefas": {
+            "tableName": "tTarefas"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "tTarefas"
+    ],
+    "dependencies": {
+      "fileSource": "c555198a-564e-45ee-a2ab-74c37f990ca7"
+    },
+    "dependents": [],
+    "id": "9fddfc1e-4479-428b-9bb0-9a0d563170b9"
+  },
+  "c555198a-564e-45ee-a2ab-74c37f990ca7": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1586/1.0.1586.2912/onedrive/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedrive",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "9fddfc1e-4479-428b-9bb0-9a0d563170b9"
+    ],
+    "id": "c555198a-564e-45ee-a2ab-74c37f990ca7"
+  }
+}

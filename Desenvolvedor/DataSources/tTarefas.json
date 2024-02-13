@@ -1,0 +1,26 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-09-14T17:17:06.2590000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Deadline": "Deadline",
+      "E-mail": "E-mail",
+      "Nome": "Nome",
+      "Setor": "Setor",
+      "Tarefa": "Tarefa",
+      "Tel_x002e_": "Tel.",
+      "Urgente_x003f_": "Urgente?"
+    },
+    "DatasetName": "AF62094D5C39987B!128",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "tTarefas",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
